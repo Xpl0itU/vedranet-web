@@ -28,7 +28,7 @@ function Index() {
         <Typography variant="h4" align="center" gutterBottom>
           Tarifas
         </Typography>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div className="flex-container">
           <div className="card">
             <Card sx={{ maxWidth: 275 }}>
               <CardContent>

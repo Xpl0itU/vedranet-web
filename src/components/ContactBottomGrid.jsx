@@ -2,6 +2,7 @@ import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
+import "../pages/Prices.css";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -22,9 +23,9 @@ function ContactBottomGrid() {
       </Typography>
       <Grid
         container
-        rowSpacing={1}
+        rowSpacing={2}
         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-        sx={{ justifyContent: "center" }}
+        className="flex-container"
       >
         <Grid item>
           <Item>Facebook: /vedranet</Item>

@@ -4,6 +4,8 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import ContactBottomGrid from "../components/ContactBottomGrid";
+import Divider from "@mui/material/Divider";
 import "./Prices.css";
 
 function Prices() {
@@ -12,7 +14,7 @@ function Prices() {
       <Typography variant="h4" align="center" gutterBottom>
         Tarifas
       </Typography>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div className="flex-container">
         <div className="card">
           <Card sx={{ maxWidth: 275 }}>
             <CardContent>
@@ -91,6 +93,8 @@ function Prices() {
           </Card>
         </div>
       </div>
+      <Divider />
+      <ContactBottomGrid />
     </>
   );
 }
