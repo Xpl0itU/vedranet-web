@@ -1,9 +1,9 @@
 function Contact() {
-    return(
-        <>
-            <p>Contact page</p>
-        </>
-    );
+  return (
+    <>
+      <p>Contact page</p>
+    </>
+  );
 }
 
 export default Contact;
