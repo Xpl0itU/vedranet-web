@@ -46,7 +46,7 @@ function Configurator() {
           <FormLabel id="internet-speed-label">Velocidad de internet</FormLabel>
           <Slider
             aria-labelledby="internet-speed-label"
-            style={{ width: "300%" }}
+            sx={{ width: { xs: "200%", md: "300%" } }}
             defaultValue={20}
             valueLabelDisplay="auto"
             step={10}
