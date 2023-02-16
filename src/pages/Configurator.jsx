@@ -13,6 +13,25 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 
+function calculatePrices(internetSpeed, cloudComputer, cloudComputerBasicSetting, physicalComputer) {
+  let finalPrice = 0;
+
+  finalPrice += internetSpeed * 0.4;
+  if(cloudComputer) {
+    if(cloudComputerBasicSetting === "Básico")
+      finalPrice += 15;
+    else if(cloudComputerBasicSetting === "Medio")
+      finalPrice += 20;
+    else if(cloudComputerBasicSetting === "Avanzado")
+      finalPrice += 25;
+  }
+
+  if(physicalComputer)
+    finalPrice += 20;
+
+  return finalPrice;
+}
+
 function Configurator() {
   const [internetSpeedValue, setInternetSpeedValue] = useState(20);
   const [cloudComputer, setCloudComputer] = useState(true);
@@ -100,7 +119,7 @@ function Configurator() {
       null}
       <Typography>Equipo físico: {physicalComputer ? "Sí" : "No"}</Typography>
       <br/>
-      <Typography style={{fontWeight: "bold"}}>Precio final: x€</Typography>
+      <Typography style={{fontWeight: "bold"}}>Precio final: {calculatePrices(internetSpeedValue, cloudComputer, cloudComputerBasicSetting, physicalComputer)}€/mes</Typography>
     </div>
     </div>
   )
