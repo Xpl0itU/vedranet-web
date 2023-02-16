@@ -4,19 +4,18 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
+import ContactBottomGrid from '../components/ContactBottomGrid';
 import "./Prices.css";
 
 function Index() {
     return(
         <>
-            <div>
-                <Typography variant="h3">
-                    VedraNet
-                </Typography>
-                <Typography variant="subtitle1" gutterBottom>
-                    Los mejores precios de toda Pontevedra
-                </Typography>
-            </div>
+            <Typography variant="h3" style={{display: "flex", justifyContent: "center"}}>
+                VedraNet
+            </Typography>
+            <Typography variant="subtitle1" gutterBottom style={{display: "flex", justifyContent: "center"}}>
+                Los mejores precios de toda Pontevedra
+            </Typography>
             <Divider/>
             <div>
                 <Typography variant="h4" align="center" gutterBottom>
@@ -87,6 +86,8 @@ function Index() {
                 </div>
             </div>
             </div>
+            <Divider style={{marginTop: "1%", marginBottom: "1%"}}/>
+            <ContactBottomGrid/>
         </>
     );
 }
