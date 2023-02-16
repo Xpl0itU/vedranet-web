@@ -30,7 +30,7 @@ function Index() {
                         </Typography>
                         <Typography variant="body2">
                             <ul>
-                                <li>100Mbps de velocidad</li>
+                                <li>Internet de hasta 100Mbps estables</li>
                             </ul>
                         </Typography>
                     </CardContent>
@@ -47,12 +47,8 @@ function Index() {
                         </Typography>
                         <Typography variant="body2">
                             <ul>
-                                <li>100Mbps de velocidad</li>
-                                <li>Equipo en la Nube estándar</li>
-                                <ul>
-                                    <li>50GB de almacenamiento</li>
-                                    <li>4GB de RAM</li>
-                                </ul>
+                                <li>Internet de hasta 100Mbps estables</li>
+                                <li>Potente equipo en la nube</li>
                             </ul>
                         </Typography>
                     </CardContent>
@@ -69,13 +65,9 @@ function Index() {
                         </Typography>
                         <Typography variant="body2">
                             <ul>
-                                <li>100Mbps de velocidad</li>
-                                <li>Equipo en la Nube estándar</li>
-                                <ul>
-                                    <li>50GB de almacenamiento</li>
-                                    <li>4GB de RAM</li>
-                                </ul>
-                                <li>Equipo físico a elección en tienda</li>
+                                <li>Internet de hasta 100Mbps estables</li>
+                                <li>Potente equipo en la nube</li>
+                                <li>Equipo físico</li>
                             </ul>
                         </Typography>
                     </CardContent>
