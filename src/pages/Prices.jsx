@@ -9,7 +9,7 @@ import "./Prices.css"
 function Prices() {
   return (
     <>
-        <Typography variant="h4" align="center">
+        <Typography variant="h4" align="center" gutterBottom>
             Tarifas
         </Typography>
         <div style={{display: "flex", justifyContent: "center"}}>
@@ -19,14 +19,17 @@ function Prices() {
                     <Typography variant="h5" component="div">
                         Internet
                     </Typography>
-                    <Typography variant="body2">
+                    <Typography variant="body2" gutterBottom>
                         <ul>
                             <li>100Mbps de velocidad</li>
                         </ul>
                     </Typography>
                 </CardContent>
+                <Typography align="center" sx={{fontWeight: "bold"}}>
+                    19,99€
+                </Typography>
                 <CardActions>
-                    <Button size="small">Ver Detalles</Button>
+                    <Button size="small" href="/configurator">Configurar</Button>
                 </CardActions>
                 </Card>
             </div>
@@ -47,8 +50,11 @@ function Prices() {
                         </ul>
                     </Typography>
                 </CardContent>
+                <Typography align="center" sx={{fontWeight: "bold"}}>
+                    39,99€
+                </Typography>
                 <CardActions>
-                    <Button size="small">Ver Detalles</Button>
+                    <Button size="small" href="/configurator">Configurar</Button>
                 </CardActions>
                 </Card>
             </div>
@@ -70,8 +76,11 @@ function Prices() {
                         </ul>
                     </Typography>
                 </CardContent>
+                <Typography align="center" sx={{fontWeight: "bold"}}>
+                    79,99€
+                </Typography>
                 <CardActions>
-                    <Button size="small">Ver Detalles</Button>
+                    <Button size="small" href="/configurator">Configurar</Button>
                 </CardActions>
                 </Card>
             </div>
