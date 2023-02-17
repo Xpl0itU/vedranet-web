@@ -91,7 +91,6 @@ function Index() {
           </div>
         </div>
       </div>
-      <Divider style={{ marginTop: "1%", marginBottom: "1%" }} />
       <ContactBottomGrid />
     </>
   );

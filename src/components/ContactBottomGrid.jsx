@@ -1,4 +1,5 @@
 import { styled } from "@mui/material/styles";
+import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
@@ -18,6 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
 function ContactBottomGrid() {
   return (
     <>
+      <Divider style={{ marginTop: "1%", marginBottom: "1%" }} />
       <Typography variant="h5" align="center" gutterBottom>
         Contacta con nosotros
       </Typography>

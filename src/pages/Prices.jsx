@@ -5,7 +5,6 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import ContactBottomGrid from "../components/ContactBottomGrid";
-import Divider from "@mui/material/Divider";
 import "./Prices.css";
 
 function Prices() {
@@ -75,8 +74,8 @@ function Prices() {
                   <li>100Mbps de velocidad</li>
                   <li>Equipo en la Nube estándar</li>
                   <ul>
-                    <li>50GB de almacenamiento</li>
-                    <li>4GB de RAM</li>
+                    <li>250GB de almacenamiento</li>
+                    <li>8GB de RAM</li>
                   </ul>
                   <li>Equipo físico a elección en tienda</li>
                 </ul>
@@ -93,7 +92,6 @@ function Prices() {
           </Card>
         </div>
       </div>
-      <Divider />
       <ContactBottomGrid />
     </>
   );
