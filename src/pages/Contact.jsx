@@ -1,21 +1,83 @@
-import { Description } from "@mui/icons-material";
-import "./Contact.css"
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import "./Prices.css";
+
 function Contact() {
   return (
     <>
-      <p id="p1">Contacto</p>
-      <div id="Description"><p>Tenemos varias posibilidades de contacto</p>
-      <ul id="list1">
-        <li><a href="">Facebook</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">Instagram</a></li>
-        <li><a href="">E-mail</a></li> 
-      </ul>    
+      <Typography variant="h4" align="center" gutterBottom>
+        Contacto
+      </Typography>
+      <div className="card flex-container">
+        <Card sx={{ maxWidth: 275 }}>
+          <CardContent>
+            <Typography variant="body2">
+              Contamos con varias opciones de contacto
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>E-mail</li>
+              </ul>
+            </Typography>
+          </CardContent>
+        </Card>
       </div>
-      <img id="img1" src="facebook.png"></img>
-      <img id="img2" src="twitter.png"></img>
-      <img id="img3" src="instagram.jpg"></img>
-      <img id="img4" src="gmail.jpeg"></img>
+      <div className="flex-container">
+        <div className="card">
+          <Card sx={{ maxWidth: 275 }}>
+            <CardContent>
+              <Typography variant="h5" component="div" gutterBottom>
+                {
+                  // Insert here facebook favicon
+                }
+                Facebook
+              </Typography>
+              <Typography variant="body2">/vedranet</Typography>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="card">
+          <Card sx={{ maxWidth: 275 }}>
+            <CardContent>
+              <Typography variant="h5" component="div" gutterBottom>
+                {
+                  // Insert here twitter favicon
+                }
+                Twitter
+              </Typography>
+              <Typography variant="body2">@vedranet</Typography>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="card">
+          <Card sx={{ maxWidth: 275 }}>
+            <CardContent>
+              <Typography variant="h5" component="div" gutterBottom>
+                {
+                  // Insert here Instagram favicon
+                }
+                Instagram
+              </Typography>
+              <Typography variant="body2">@vedranet</Typography>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="card">
+          <Card sx={{ maxWidth: 275 }}>
+            <CardContent>
+              <Typography variant="h5" component="div" gutterBottom>
+                {
+                  // Insert here email favicon
+                }
+                E-mail
+              </Typography>
+              <Typography variant="body2">contacto@vedranet.com</Typography>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
     </>
   );
 }
