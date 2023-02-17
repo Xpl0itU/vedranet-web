@@ -1,6 +1,7 @@
 import Typography from "@mui/material/Typography";
 import OIP from "../assets/OIP.jfif";
 import friki from "../assets/friki.png";
+import "./About.css";
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
           desarrollarse tanto de forma personal como de forma profesional
           poniendo en sus manos todo el material que sea necesario.
         </Typography>
-        <img src={friki} style={{ marginTop: "1%" }} />
+        <img src={friki} className="responsive" />
         <div style={{ marginTop: "3%" }}>
           <Typography variant="h4" align="center" gutterBottom>
             ¿Quienes somos nosotros?
@@ -34,7 +35,7 @@ function About() {
             nosotros no pudimos disfrutar y de esta manera poder formar parte de
             tu progreso.
           </Typography>
-          <img src={OIP} />
+          <img src={OIP} className="responsive" />
           <Typography variant="caption" display="block">
             Cada día más personas confían en nosotros ¡da el paso y empieza a
             disfrutar!
