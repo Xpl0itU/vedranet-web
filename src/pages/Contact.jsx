@@ -29,9 +29,6 @@ function Contact() {
           <Card sx={{ maxWidth: 275 }}>
             <CardContent>
               <Typography variant="h5" component="div" gutterBottom>
-                {
-                  // Insert here facebook favicon
-                }
                 Facebook
               </Typography>
               <Typography variant="body2">/vedranet</Typography>
@@ -42,9 +39,6 @@ function Contact() {
           <Card sx={{ maxWidth: 275 }}>
             <CardContent>
               <Typography variant="h5" component="div" gutterBottom>
-                {
-                  // Insert here twitter favicon
-                }
                 Twitter
               </Typography>
               <Typography variant="body2">@vedranet</Typography>
@@ -55,9 +49,6 @@ function Contact() {
           <Card sx={{ maxWidth: 275 }}>
             <CardContent>
               <Typography variant="h5" component="div" gutterBottom>
-                {
-                  // Insert here Instagram favicon
-                }
                 Instagram
               </Typography>
               <Typography variant="body2">@vedranet</Typography>
@@ -68,9 +59,6 @@ function Contact() {
           <Card sx={{ maxWidth: 275 }}>
             <CardContent>
               <Typography variant="h5" component="div" gutterBottom>
-                {
-                  // Insert here email favicon
-                }
                 E-mail
               </Typography>
               <Typography variant="body2">contacto@vedranet.com</Typography>
