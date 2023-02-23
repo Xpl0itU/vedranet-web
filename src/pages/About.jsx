@@ -1,5 +1,5 @@
 import Typography from "@mui/material/Typography";
-import OIP from "../assets/OIP.jfif";
+import us from "../assets/us.jpg";
 import friki from "../assets/friki.png";
 import "./About.css";
 
@@ -35,7 +35,7 @@ function About() {
             nosotros no pudimos disfrutar y de esta manera poder formar parte de
             tu progreso.
           </Typography>
-          <img src={OIP} className="responsive" />
+          <img src={us} className="responsive" style={{ width: "50%" }} />
           <Typography variant="caption" display="block">
             Cada día más personas confían en nosotros ¡da el paso y empieza a
             disfrutar!
